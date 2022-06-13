@@ -8,7 +8,7 @@ metadata:
     name: spinner-makers-microservice
     namespace: microservices
 spec:
-    replicas: 5
+    replicas: 4
     selector:
         matchLabels:
             run: spinner-makers-microservice
